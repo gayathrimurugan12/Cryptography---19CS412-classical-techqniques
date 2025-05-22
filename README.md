@@ -1,8 +1,8 @@
                                                                         Caesar Cipher
 
-AIM:
+## AIM:
 To encrypt and decrypt the given message by using Ceasar Cipher encryption algorithm.
-DESIGN STEPS:
+## DESIGN STEPS:
 Step 1:
 Design of Caesar Cipher algorithnm
 Step 2:
@@ -15,7 +15,8 @@ scheme, A = 0, B = 1, Z = 25.
 4.	Encryption of a letter x by a shift n can be described mathematically as, En(x) = (x + n) mod26
 5.	Decryption is performed similarly, Dn (x)=(x - n) mod26
 
-Program:
+## Program:
+```
 #include <stdio.h>
 #include <stdlib.h>
 void caesarEncrypt(char *text, int key)
@@ -52,17 +53,17 @@ int main()
     printf("Decrypted Message: %s", message);
     return 0;
 }
+```
 
 
 
 
 
 
-
-Output:
+## Output:
  ![image](https://github.com/user-attachments/assets/4d20ab55-911a-4609-9508-9b30b4e4524a)
 
 
-Result:
+## Result:
 The program for Caesar Cipher is executed successfully.
 
